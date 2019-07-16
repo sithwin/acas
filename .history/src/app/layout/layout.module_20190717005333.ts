@@ -13,10 +13,9 @@ import {
   MatSidenavModule,
   MatToolbarModule
 } from '@angular/material';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
-  declarations: [LayoutComponent, TopnavComponent, SidebarComponent],
+  declarations: [LayoutComponent, TopnavComponent],
   imports: [
     CommonModule,
     LayoutRoutingModule,
